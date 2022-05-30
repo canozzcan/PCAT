@@ -7,15 +7,19 @@ const photoController = require('./controllers/photoControllers');
 const pageConroller = require('./controllers/pageController');
 
 
-const port = 3000;
+const port = process.env.PORT || 5000;
 
 const app = express();
 
 // connect DB
-mongoose.connect('mongodb://localhost/pcat-test-db', {
+mongoose.connect('mongodb+srv://canozcan:VbFIpcg17v1e41JY@cluster0.csv8q.mongodb.net/?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
-});
+}).then(() => {
+    console.log('DB Connected!')
+}).catch((err) =>{
+    consolo.log(err);
+})
 
 //TEMPLATE ENGINE
 app.set("view engine", "ejs");
