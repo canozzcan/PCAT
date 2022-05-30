@@ -18,7 +18,7 @@ mongoose.connect('mongodb+srv://canozcan:VbFIpcg17v1e41JY@cluster0.csv8q.mongodb
 }).then(() => {
     console.log('DB Connected!')
 }).catch((err) =>{
-    consolo.log(err);
+    console.log(err);
 })
 
 //TEMPLATE ENGINE
