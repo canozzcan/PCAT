@@ -34,6 +34,10 @@ Downloading this ready-made Video Catalog template from the [templatemo.com](htt
 
 
 
+https://user-images.githubusercontent.com/102858441/174482745-0edf57ef-ed98-4c83-8533-0b901603d2fa.mov
+
+
+
 
 
 ## :computer: Setup
